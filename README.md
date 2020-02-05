@@ -34,7 +34,7 @@ In computer science, [library](https://en.wikipedia.org/wiki/Library_(computing)
 
 [**Static library**](https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/DynamicLibraries/100-Articles/OverviewOfDynamicLibraries.html) - (*.a) ([static archive library, static linked shared library](https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/DynamicLibraries/100-Articles/OverviewOfDynamicLibraries.html#//apple_ref/doc/uid/TP40001873-SW1)) - collection or archive of object files. Static linker collects app compiled source code with library code into a single executable file, which loaded into memory in its entirety at runtime.
 
-![](https://github.com/SezorusArticles/Article_KZ005/blob/master/Assets/image_1.png)
+![](https://github.com/2ZGroupSolutionsArticles/Article_KZ005/blob/master/Assets/image_1.png)
 
 Linking static library and memory usage
 
@@ -48,7 +48,7 @@ You can create a Swift static library, this is supported from Xcode 9.0. Till Xc
 
 **Dynamic libraries** (*.dylib) ([dynamic shared library, shared object, dynamically linked library](https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/DynamicLibraries/100-Articles/OverviewOfDynamicLibraries.html#//apple_ref/doc/uid/TP40001873-SW1)) are not copied into executable file, like static libraries. Instead, they are dynamically linked to at load or runtime, when both binary files and the library are in memory. Dynamic libraries stored and versioned separately. As a result, the dynamic library may be loaded not the same which was originally referenced if the update is considered binary compatible with the original version.
 
-![](https://github.com/SezorusArticles/Article_KZ005/blob/master/Assets/image_2.png)
+![](https://github.com/2ZGroupSolutionsArticles/Article_KZ005/blob/master/Assets/image_2.png)
 
 Linking dynamic library and memory usage
 
@@ -90,7 +90,7 @@ You can expect framework with `file` command in Terminal:
 ```
  file <PathToAppFramework>/<FrameworkName>.framework/<FrameworkName>
 ```
-![](https://github.com/SezorusArticles/Article_KZ005/blob/master/Assets/image_3.png)
+![](https://github.com/2ZGroupSolutionsArticles/Article_KZ005/blob/master/Assets/image_3.png)
 
 Example of universal framework
 
@@ -98,7 +98,7 @@ To inspect all the dynamically linked frameworks and libraries to a binary you c
 
     otool -L <PathToArchive>/Products/Applications/<AppName>.app/<AppBinary>
 
-![](https://github.com/SezorusArticles/Article_KZ005/blob/master/Assets/image_4.png)
+![](https://github.com/2ZGroupSolutionsArticles/Article_KZ005/blob/master/Assets/image_4.png)
 
 The output of `otool` Terminal command lists all of the dynamic frameworks and libraries that linked to binary
 
@@ -191,6 +191,6 @@ Thank you for your time.
 
 Kseniia Zozulia
 
-Email:  [kseniiazozulia@sezorus.com](mailto:kseniiazozulia@sezorus.com)
+Email:  [kseniiazozulia@2zgroup.net](mailto:kseniiazozulia@2zgroup.net)
 
 LinkedIn:  [Kseniia Zozulia](https://www.linkedin.com/in/629bb187)
